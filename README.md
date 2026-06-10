@@ -3,9 +3,9 @@
 ECE 228 Final Project  
 Team 56: Manasvin Surya BJ, Francisco Garcia, Harini Sabapathy, Aidan Manternach
 
-This is an open ended project which does camera only scene reconstruction and trajectory prediction in a modular way using finetuned YOLOv8 model, metric Depth Anything V2 model, and Kalman Filter. The main output for project is Bird's Eye View (BEV) object projection and trajectory model with arrows demonstrating direction and velocity.  
+This is an open-ended project which does camera-only scene reconstruction and trajectory prediction in a modular way using finetuned YOLOv8 model, metric Depth Anything V2 model, and Kalman Filter. The main output for project is Bird's Eye View (BEV) object projection and trajectory model with arrows demonstrating direction and velocity.  
 
-**Note**: All of the notebooks render properly in Github, however, we have experienced instances where they do not render upon first time loading the web page. If facing this issue the Github repo can be cloned locally where the notebooks will be properly displayed in the IDE or attempt reloading the page.
+**Note**: All of the notebooks render properly in Github, however, we have experienced instances where they do not render upon first time loading the web page. If facing this issue, the Github repo can be cloned locally where the notebooks will be properly displayed in the IDE or attempt reloading the page.
 
 ## Machine Learning Framework:  
 
