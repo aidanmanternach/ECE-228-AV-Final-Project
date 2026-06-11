@@ -27,7 +27,7 @@ All of our work was done primarily in jupyter notebooks.
 
 ### Model Notebooks
 
-Both the depth and object model notebooks can be individually in order to evaluate the give models.
+Both the depth and object model notebooks can be ran in order to evaluate the given models.
 
 ### BEV Trajectory Modelling Notebook
 
