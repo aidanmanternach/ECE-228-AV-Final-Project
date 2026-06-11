@@ -17,8 +17,8 @@ This is an open-ended project which does camera-only scene reconstruction and tr
 
 | Folder | Contents |
 |---|---|
-| [`depth-model`](depth-model/) | Loads and evaluates the Depth Anything V2 model |
-| [`yolov8-finetuning`](yolov8-finetuning/) | Fine tune and evaluation YOLOv8 on KITTI, best model weights are saved as best.pt |
+| [`depth_model`](depth_model/) | Loads and evaluates the Depth Anything V2 model |
+| [`yolov8_finetuning`](object_model/) | Fine tune and evaluation YOLOv8 on KITTI, best model weights are saved as best.pt |
 | [`bev_trajectory_modelling`](bev_trajectory_modelling/) | Main project framework for object, depth, and trajectory prediction |
 
 ## Run Code and Reproduce Results
@@ -43,6 +43,6 @@ In order to reproduce the results for the three driving test sequences, there ar
 
 ## Models
 
-- YOLOv8m fine tuned on the KITTI dataset for Car, Pedestrian, and Cyclist. The training and best model are saved in the `object-model` folder
+- YOLOv8m fine tuned on the KITTI dataset for Car, Pedestrian, and Cyclist. The training and best model are saved in the `object_model` folder
 - Depth Anything V2 (`depth-anything/Depth-Anything-V2-Metric-Outdoor-Small-hf`) is a pretrained model for metric depth detection from HuggingFace
 - Kalman Filter for kinematic state estimation that tracks velocity and position for objects across frames
