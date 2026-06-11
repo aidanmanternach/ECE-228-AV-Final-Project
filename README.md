@@ -18,7 +18,7 @@ This is an open-ended project which does camera-only scene reconstruction and tr
 | Folder | Contents |
 |---|---|
 | [`depth_model`](depth_model/) | Loads and evaluates the Depth Anything V2 model |
-| [`yolov8_finetuning`](object_model/) | Fine tune and evaluation YOLOv8 on KITTI, best model weights are saved as best.pt |
+| [`object_model`](object_model/) | Fine tune and evaluation YOLOv8 on KITTI, best model weights are saved as best.pt |
 | [`bev_trajectory_modelling`](bev_trajectory_modelling/) | Main project framework for object, depth, and trajectory prediction |
 
 ## Run Code and Reproduce Results
