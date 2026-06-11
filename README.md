@@ -33,7 +33,7 @@ Both the depth and object model notebooks can be ran in order to evaluate the gi
 
 This notebook contains that main framework for BEV projection and trajectory prediction. This notebook can be run in any environment, but is recommended for google colab.  
 
-In order to reproduce the results for the three driving test sequences there are configuration variables at the top of the notebook. The configuration variable that need to be changed: `SEQUENCE_ID`, `RAW_DATE`, `RAW_DRIVE`
+In order to reproduce the results for the three driving test sequences, there are configuration variables at the top of the notebook. The configuration variables that need to be changed: `SEQUENCE_ID`, `RAW_DATE`, `RAW_DRIVE`
 
 | Driving Sequence | Configuration Variables |
 |---|---|
